@@ -2,7 +2,7 @@
 }
 
 #section1 {
-  background-color: #bbc8ff;
+  background-color: rgb(243, 144, 243, 0.7);
   /* padding: 250px; */
   width: 100%;
 }
@@ -34,9 +34,9 @@
   padding-top: 150px;
 }
 #section1 .name {
-  margin-top: 90px;
+  margin-top: 7.62rem;
   margin-left: 260px;
-  padding-bottom: 70px;
+  padding-bottom: 69px;
 }
 #section1 .name h2 {
   font-size: 5.5rem;
@@ -79,7 +79,7 @@
 #section2 .sec2_right p {
   font-size: 1.2rem;
   font-weight: 900;
-  color: rgb(213, 202, 231);
+  color: rgb(243, 144, 243, 0.7);
   margin-bottom: 15px;
 }
 
