@@ -430,6 +430,7 @@
   height: 100%;
 }
 .pop img {
+  width: 100%;
 }
 .close span {
   display: block;
