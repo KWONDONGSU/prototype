@@ -9,17 +9,28 @@ $(function () {
       $(".pop img").attr("src", img_src);
       $(".pop .txt").text(img_title);
       $(".pop img").width(img_size);
-      $(".pop_2").show();
-      $(".pop_2 img").attr("src", img_src);
-      $(".pop_2 .txt").text(img_title);
-      $(".pop_2 img").width(img_size);
     });
 
     $(".close, .pop").click(function () {
       $(".pop").hide();
     });
-    $(".close_2, .pop_2").click(function () {
-      $(".pop_2").hide();
-    });
   });
+
+  /*   $('.graphic_box a').each(function(){
+      $('.pop').hide();
+      $(this).click(function(){
+        var ahref = $(this).attr('href');
+        $('.pop').hide();
+        $(ahref).fadeIn();
+        $('.graphic_box a').css({background:'none'});
+        $(this).css({'background-color':'orange'});
+
+        $('.close').click(function(){
+          $(ahref).fadeOut(500);
+            })
+
+
+       
+      })
+  })*/
 });
